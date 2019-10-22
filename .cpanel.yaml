@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tdevdevepikso/public_1html/
+    - /bin/cp -R images $DEPLOYPATH
